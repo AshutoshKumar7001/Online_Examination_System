@@ -265,11 +265,6 @@ If you want to propose breaking changes, open an issue first to discuss.
 ## Issues & support
 Open issues in the GitHub Issues tab for bugs, feature requests or questions. Use descriptive titles and steps to reproduce.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-(If you use a different license, replace this section accordingly.)
-
 ## Contact
 Maintainer: AshutoshKumar7001  
 GitHub: https://github.com/AshutoshKumar7001
@@ -286,3 +281,4 @@ Notes / To customize:
 - Replace placeholder commands, scripts and tooling to match your actual project (e.g., actual npm scripts, Django management commands, or Maven/Gradle commands).
 - Add screenshots, GIFs and a short demo video/GIF to demonstrate the UI and flows.
 - If you provide an OpenAPI/Swagger spec, add the link and instructions to view it.
+
