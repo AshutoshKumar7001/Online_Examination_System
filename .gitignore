@@ -1,0 +1,18 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local Django files
+db.sqlite3
+db.sqlite3-journal
+media/
+static/
+!static/keep_folder_structure.txt
+
+# Environment variables (Crucial for security)
+.env
+.venv/
+env/
+venv/
+ENV/

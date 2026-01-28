@@ -1,5 +1,6 @@
 from django.urls import path,include
 from django.contrib import admin
+from django.http import JsonResponse
 from exam import views
 from django.contrib.auth.views import LogoutView,LoginView
 urlpatterns = [
@@ -49,4 +50,11 @@ urlpatterns = [
     path('delete-question/<int:pk>', views.delete_question_view,name='delete-question'),
 
 
+]
+
+def health_check(request):
+    return JsonResponse({"status": "ok"})
+
+urlpatterns += [
+    path("health/", health_check),
 ]
